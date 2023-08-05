@@ -38,7 +38,7 @@ nav{
 
 .home{
         font-family: Rubik;
-        font-size: 20px;
+        font-size: 1.25em;
         font-weight: 700;
         line-height: 24px;
         letter-spacing: 0em;
@@ -164,6 +164,11 @@ nav{
     /* border: 1px solid black; */
 }
 
+.collection-heading-1{
+    position: relative;
+    right: 2.7%; 
+}
+
 .collection-heading{
         font-family: Roboto;
         font-size: 24px;
@@ -172,6 +177,7 @@ nav{
         letter-spacing: 0em;
         text-align: center;
         color: #000000;
+        
 }
 
 .upper-btns{
@@ -216,7 +222,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 180px;
 
 }
 
@@ -287,6 +293,7 @@ nav{
 
 .grid-container {
     display: grid;
+    margin-top: 3%;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 20px;
@@ -303,7 +310,7 @@ nav{
 
 .right-side {
     grid-column: 2 / span 1;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     /* padding: 20px; */
     border-radius: 50px;
     overflow: hidden;
@@ -317,7 +324,7 @@ nav{
 
 .div1,
 .div2 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 250px;
     border-radius: 50px;
     overflow: hidden;
@@ -370,7 +377,7 @@ nav{
             top: 170px;
             left: 50px;
             align-items: center;
-            border: 1px solid black;
+            /* border: 1px solid black; */
             
 }
 
@@ -415,8 +422,8 @@ footer{
     position: relative;
     top: 350px;
     left: 50px;
-    height: 485px;
-    background-color: aqua;
+    height: max-content;
+    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -427,7 +434,7 @@ footer{
 
 .social{
     width: 25%;
-    height: 485px;
+    height: max-content;
     /* background-color: #FF5151; */
     padding-left: 8%;
     box-sizing: border-box;
@@ -446,7 +453,9 @@ footer{
 
 .footer-category{
     width: 40%;
-    height: 485px;
+    height: max-content;
+    margin-top: 5%;
+    box-sizing: border-box;
     /* background-color: blue; */
 }
 
@@ -483,7 +492,9 @@ thead{
 
 .contact{
     width: 25%;
-    height: 485px;
+    height: max-content;
+    margin-bottom: 6%;
+    box-sizing: border-box;
     /* +\background-color: red; */
 }
 
